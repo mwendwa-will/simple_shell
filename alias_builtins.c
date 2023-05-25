@@ -1,8 +1,7 @@
 #include "shell.h"
 
-alias_t* aliases;
-
-char* name;  
+alias_t *aliases;
+char *name;
 
 int shellby_alias(char **args, char __attribute__((__unused__)) **front);
 void set_alias(char *var_name, char *value);
@@ -154,3 +153,5 @@ char **replace_aliases(char **args)
 
 	return (args);
 }
+
+
